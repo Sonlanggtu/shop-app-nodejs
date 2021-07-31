@@ -1,0 +1,27 @@
+1. create project nodejs
+npm init
+2. install global : npm install <package> -g
+
+3. install product (of project): npm install <package> --save
+
+3. install dev (of project) npm install <package> --save-dev
+
+4. tsc --init
+create file config typescript
+
+5.yarn add typescript nodemon ts-node --dev
+when changing code will auto refresh browser , ts-node run file ts use cmd ts-node
+
+
+6. config command with script in package.json
+- in script create json ex  "server":"nodemon src/main.ts"
+=> run: npm run server || yarn server
+
+7.
+
+
+
+Utility package
++ express : Express is a Framework popular of nodejs
+    install: yarn add @type/express --dev
++ 
