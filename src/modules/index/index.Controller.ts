@@ -1,5 +1,4 @@
 import { Router } from "express";
-import Route from "../../core/interfaces/routes.interface";
 import {NextFunction, Response, Request} from 'express';
 
 export default class IndexController{

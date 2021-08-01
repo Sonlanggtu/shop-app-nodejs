@@ -2,7 +2,7 @@
 npm init
 2. install global : npm install <package> -g
 
-3. install product (of project): npm install <package> --save
+3. install product (of project): npm install <package> --save h yarn add <package>
 
 3. install dev (of project) npm install <package> --save-dev
 
@@ -17,11 +17,32 @@ when changing code will auto refresh browser , ts-node run file ts use cmd ts-no
 - in script create json ex  "server":"nodemon src/main.ts"
 => run: npm run server || yarn server
 
-7.
+7. winston: A logger for just about everything.
+    npm i winston --save
+    yarn add @types/winston --dev
 
-
+8.Envalid: Envalid is a small library for validating and accessing environment variables in Node.js (v8.12 or later) programs
+    npm i envalid
+    
 
 Utility package
 + express : Express is a Framework popular of nodejs
     install: yarn add @type/express --dev
-+ 
++ mongoose : connect to no sql monodb
+    install :npm install mongoose --save
+             yarn add @types/mongoose --dev
+
+Security
++ hpp : Express middleware to protect against HTTP Parameter Pollution attacks
+    link: https://www.npmjs.com/package/hpp
+    install: npm i hpp --save
++ morgan: HTTP request logger middleware for node.js
++ helmet: Helmet helps you secure your Express apps by setting various HTTP headers.
++ cors: CORS is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.
+    install : add hpp helmet morgan cors
+    
+Manager file ENV
++ cross-env : Run scripts that set and use environment variables across platforms
++ dotevn: Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env
+    install: yarn addd dotnenv cross-env
+    yarn add @types/cors @types/morgan @types/hpp @types/helmet --dev
